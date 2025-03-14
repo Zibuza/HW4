@@ -1,7 +1,5 @@
 const express = require("express");
-const { write } = require("fs");
 const fs = require("fs/promises");
-const { userInfo } = require("os");
 const app = express();
 
 app.use(express.json());
